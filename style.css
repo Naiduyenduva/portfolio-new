@@ -10,8 +10,7 @@ body{
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    z-index: 1000;
-    
+    z-index: 1000;   
 }
 .nav-logo{
    padding: 10px;  
@@ -28,8 +27,92 @@ body{
 }
 .nav-links a:hover {
      color: orangered;
+}
+.image {
+    height: 100vh;
+    background: url("simon-berger-twukN12EN7c-unsplash.jpg") center/cover ; 
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+}
+.aboutme {
+    height: 350px;
+    width: 210px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+.aboutme p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+   
+}
+.skills {
+    height: 350px;
+    width: 210px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+.projects {
+    height: 350px;
+    width: 210px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+.contactme {
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.image h1{
+    padding: 10px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 130px;
+}
+.list {
+  
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 
 }
-.photo {
-    background: url("c:\Users\LAXMU NAIDU\OneDrive\Pictures\link.jpeg");
+.plist {
+    
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+.contactme p {
+   
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    font-weight: bold;
+
+   
+}
+.aboutme h1 {
+    color: blueviolet;
+}
+.contactme h1 {
+    color: blueviolet;
+}
+.skills h1 {
+    color: blueviolet;
+}
+.projects h1 {
+    color: blueviolet;
 }
